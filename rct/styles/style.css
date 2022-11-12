@@ -1,0 +1,73 @@
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+body{
+font-family:'Raleway',sans-serif
+}
+
+form {
+width:350px;
+height:auto;
+margin:50px auto 0;
+padding:50px;
+background-color:#EEE;
+color:#333;
+border:2px solid #C2D6FF;
+border-radius:40px 0 40px 0;
+}
+label{
+font-size:15px;
+font-weight:700
+}
+input#fullname{
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+
+}
+input#email{
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+
+}
+input#age{
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+}
+
+button {
+background-color:#cc7a66;
+border-radius:5px;
+border:none;
+padding:10px 25px;
+color:#FFF;
+text-shadow:1px 1px 1px #949494;
+margin-left:120px
+}
+button:hover{
+background-color:#FF9980
+}
+
+  
