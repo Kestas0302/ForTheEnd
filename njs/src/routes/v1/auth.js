@@ -37,7 +37,7 @@ router.post('/register', async (req, res) => {
     return res.status(500).send({ err: 'Unexpected error. Please try again.' });
   }
 });
-router.get('/participants-list', async (req, res) => {
+router.get('/listcontrol', async (req, res) => {
   try {
       const con = await mysql.createConnection(dbConfig);
       const [data] = await con.execute(
